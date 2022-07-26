@@ -70,6 +70,9 @@ view_information = {
             'https://docs.djangoproject.com/en/4.0/ref/models/querysets/#lt',
         ],
         'expected_terminal_results': [
+            'Full Name: Jackie Daytona',
+            'Hire Date: 2001-10-10',
+            ' ',
             'Full Name: Colin Robinson',
             'Hire Date: 2009-04-10',
             ' ',
@@ -115,7 +118,7 @@ view_information = {
                     ' LIMIT 21'
                 ]
             },
-                        {
+            {
                 'query_number': 2,
                 'query_lines': [
                     'SELECT `school_db_course`.`id`,',
